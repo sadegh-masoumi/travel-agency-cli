@@ -109,7 +109,7 @@ def add(model=None):
         return
 
     print(f"{model} with id={data_for_fields['id']} added!")
-    print("Select your next action:")
+    print("Select your next action")
     print(f"1. Add another {model}")
     print("2. Main Menu")
     action = int(input())
